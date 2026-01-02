@@ -4,18 +4,22 @@
 **Descrição:**  
 Um downloader de imagens rápido e direto para Android usando Termux. Ele pesquisa imagens na internet, salva no armazenamento do Android e força a galeria a atualizar automaticamente.
 
-
 ## ⚙️ Requisitos
 
 1. **Termux atualizado**  
    ```bash
-     
-  
-   pkg update && pkg upgrade -y && pkg install python -y && pip install requests && pkg install termux-api -y && termux-setup-storage -y && pkg install git -y && git clone https://github.com/snaidermadilus-debug/ia-de-imagens-ia.2.0.git && cd ia-de-imagens-ia.2.0 && python ia.py
+   pkg update && pkg upgrade -y
+   pkg install python -y
+   pip install requests        # Biblioteca para baixar imagens
+   pkg install termux-api -y
+   termux-setup-storage -y
+   pkg install git -y          # Para clonar ou versionar scripts   
    
+   
+
 # ia-de-imagens-ia.2.0
 
-## ⚙️ Requisitos
+## ⚙ linha única para instalar
 
 1. **Termux atualizado**  
    ```bash
