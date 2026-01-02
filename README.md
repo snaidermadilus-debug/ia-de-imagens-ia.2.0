@@ -67,5 +67,3 @@ o APK e instalar no seu celular Android. � para baixar u TERMUX e
    pkg install git -y          # Para clonar ou versionar scripts   
 
 # ia-de-imagens-ia.2.0
-# ia-de-imagens-ia.2.0
-# ia-de-imagens-ia.2.0
